@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON challenge2</title>
+</head>
+
+<body>
+    <h2>JSON Example</h2>
+    <p id="demo"></p>
+    <script>
+        const SchoolDetails = {
+            "Name": "SBOA",
+            "Year": 1998,
+            "Rank": 1,
+            "students": 1000
+        };
+
+        document.getElementById("domo").innerHTML = details();
+
+        function details() {
+            document.write("School Name = " + SchoolDetails.Name + "<br>")
+            document.write("Year = " + SchoolDetails.Year + "<br>")
+            document.write("Rank in the city = " + SchoolDetails.Rank + "<br>")
+            document.write("No Of Students Studying = " + SchoolDetails.students)
+        }
+    </script>
+
+</body>
+
+</html>
